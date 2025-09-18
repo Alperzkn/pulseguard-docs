@@ -1,0 +1,69 @@
+{
+  "title": "PulseGuard Documentation",
+  "description": "Comprehensive documentation for the PulseGuard cryptocurrency data collection and monitoring ecosystem",
+  "author": "PulseGuard Team",
+  "language": "en",
+  "gitbook": ">=3.0.0",
+  "plugins": [
+    "search",
+    "sharing",
+    "fontsettings",
+    "highlight",
+    "livereload",
+    "lunr",
+    "theme-default",
+    "code",
+    "prism",
+    "toggle-chapters",
+    "expandable-chapters",
+    "back-to-top-button",
+    "copy-code-button",
+    "github",
+    "edit-link"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "sharing": {
+      "facebook": false,
+      "twitter": false,
+      "google": false,
+      "weibo": false,
+      "instapaper": false,
+      "vk": false,
+      "all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+    },
+    "fontsettings": {
+      "theme": "white",
+      "family": "sans",
+      "size": 2
+    },
+    "github": {
+      "url": "https://github.com/your-org/pulseguard"
+    },
+    "edit-link": {
+      "base": "https://github.com/your-org/pulseguard-docs/edit/main",
+      "label": "Edit This Page"
+    }
+  },
+  "variables": {
+    "version": "1.0.0",
+    "project_name": "PulseGuard",
+    "api_base_url": "http://your-server:3000/api/v1"
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 12,
+    "fontFamily": "Arial",
+    "paperSize": "a4",
+    "chapterMark": "pagebreak",
+    "pageBreaksBefore": "/",
+    "margin": {
+      "right": 62,
+      "left": 62,
+      "top": 56,
+      "bottom": 56
+    }
+  }
+}

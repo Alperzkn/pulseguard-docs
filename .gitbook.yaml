@@ -1,0 +1,20 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+plugins:
+  - search
+  - sharing
+  - fontsettings
+  - highlight
+  - livereload
+  - lunr
+  - sharing
+  - theme-default
+
+variables:
+  version: "1.0.0"
+  project_name: "PulseGuard"
+  api_base_url: "http://your-server:3000/api/v1"
